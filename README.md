@@ -1,5 +1,8 @@
 # This a restaurant landing page
 
+
+###The project is being developed using React
+
 ## Available Scripts
 
 In the project directory, you can run:
