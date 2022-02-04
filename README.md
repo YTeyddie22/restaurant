@@ -1,7 +1,7 @@
 # This a restaurant landing page
 
 
-###The project is being developed using React
+### The project is being developed using React
 
 ## Available Scripts
 
