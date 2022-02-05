@@ -40,7 +40,7 @@ return (
 
 {toggleMenu && (
 
-  <div className="app__smallScreen__overlay flex__center slide-bottom">
+  <div className="app__navbar-smallScreen_overlay flex__center slide-bottom">
 
      <MdOutlineRestaurantMenu fontSize={27} className='overlay__close'  onClick={()=>setToggleMenu(false)} />
 

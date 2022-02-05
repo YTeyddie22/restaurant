@@ -16,7 +16,7 @@
 }
 
 .app__navbar-logo img {
-	width: 5rem;
+	width: 15rem;
 }
 
 .app__navbar-links {
@@ -30,7 +30,7 @@
 
 .app__navbar-links li {
 	margin: 0 1rem;
-
+	font-size: 0.8rem;
 	cursor: pointer;
 }
 .app__navbar-links li:hover {
@@ -61,7 +61,7 @@
 	display: none;
 }
 
-.app__smallScreen__overlay {
+.app__navbar-smallScreen_overlay {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -73,7 +73,7 @@
 	flex-direction: column;
 }
 
-.app__smallScreen__overlay .overlay__close {
+.app__navbar-smallScreen_overlay .overlay__close {
 	font-size: 2.7rem;
 	color: var(--color-golden);
 	cursor: pointer;
@@ -82,12 +82,45 @@
 	right: 20px;
 }
 
-@media screen and (max-width: 100rem) {
+.app__navbar-smallScreen-links {
+	list-style: none;
+}
+.app__navbar-smallScreen-links li {
+	margin: 3rem;
+	cursor: pointer;
+	text-align: center;
+	font-family: var(--font-base);
+	color: var(--color-golden);
+}
+.app__navbar-smallScreen-links li:hover {
+	color: var(--color-white);
+}
+
+@media screen and (min-width: 70rem) {
+	.app__navbar-logo img {
+		width: 15rem;
+	}
+}
+
+@media screen and (max-width: 65rem) {
 	.app__navbar-links {
 		display: none;
 	}
 
 	.app__navbar-smallScreen {
 		display: flex;
+	}
+}
+@media screen and (max-width: 50rem) {
+	.app__navbar-links {
+		display: none;
+	}
+
+	.app__navbar-smallScreen {
+		display: flex;
+	}
+
+	.app__navbar-login {
+		display: none;
 	}
 }
