@@ -31,8 +31,8 @@ a {
 
 @-webkit-keyframes slide-bottom {
 	0% {
-		-webkit-transform: translateY(-25%);
-		transform: translateY(-25%);
+		-webkit-transform: translateY(-75%);
+		transform: translateY(-75%);
 	}
 	100% {
 		-webkit-transform: translateY(0);
@@ -42,8 +42,8 @@ a {
 
 @keyframes slide-bottom {
 	0% {
-		-webkit-transform: translateY(-25%);
-		transform: translateY(-25%);
+		-webkit-transform: translateY(-75%);
+		transform: translateY(-75%);
 	}
 	100% {
 		-webkit-transform: translateY(0);
