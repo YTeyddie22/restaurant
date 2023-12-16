@@ -1,15 +1,7 @@
 .app__laurels_awards {
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 	margin-top: 3rem;
-}
-
-@media screen and (max-width: 70rem) {
-	.app__laurels_awards {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-	}
 }
 
 @media screen and (max-width: 45rem) {
