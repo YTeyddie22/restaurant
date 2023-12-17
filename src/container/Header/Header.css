@@ -10,3 +10,9 @@
 	line-height: 11rem;
 	font-size: 8rem;
 }
+
+@media screen and (max-width: 45rem) {
+	.app__header-h1 {
+		font-size: 4rem;
+	}
+}
